@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Pokedex!</title>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h1>Pokedex!</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 d-flex justify-content-center">
+        <img src="./images/pokedex.gif" alt="">
+      </div>
+      <div class="col-6">
+        <h3 class="">Enter Pokemon Name</h3>
+
+
+        <!-- pokemon form -->
+        <!-- <form onsubmit="app.controllers.pokemoncontroller.catchName(event)">
+          <div class="input-group form-group mb-3" style="width: 18rem">
+            <input type="text" class="form-control" placeholder="pikachu" aria-label="Recipient's username"
+              aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="submit">Submit</button>
+            </div>
+          </div>
+        </form> -->
+
+        <form id="inputform" action="">
+          <div class="input-group mb-3" style="width:18rem">
+            <input type="text" id="pokename" name="name" value="value" class="form-control" placeholder="Pikachu">
+            <div class="input-group-append">
+        </form>
+        <button onclick="app.controllers.pokemonController.catchName()"="btn btn-outline-secondary" type="button">Button</button>
+      </div>
+    </div>
+
+
+    <div id="pokecard">
+      <!-- <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="./images/Pokeball.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Name</h5>
+            <p class="card-text">Description</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Type</li>
+            <li class="list-group-item">Abilities</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">previous</a>
+            <a href="#" class="card-link">next</a>
+          </div>
+        </div> -->
+    </div>
+
+
+  </div>
+  </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+  <script src="main.js" type="module"></script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
