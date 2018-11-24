@@ -1,4 +1,21 @@
-.card-img-top{
-  height: 50px;
-  width: 50px; 
+.columnbg{
+  background-color: #db002c;
+  background-clip: content-box;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
+.dexsize{
+  width: 100%;
+  height:auto
+} 
+
+.pokemonpic{
+  width: 300px;
+  height:300px;
+}
+
+/* .img-fluid{
+  max-width: 100%;
+  height: auto;
+} */

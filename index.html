@@ -16,33 +16,15 @@
 </head>
 
 <body>
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-        <h1>Pokedex!</h1>
-      </div>
-    </div>
+  <div class="container">
 
     <div class="row">
-      <div class="col-6 d-flex justify-content-center">
-        <img src="./images/pokedex.gif" alt="">
-      </div>
-      <div class="col-6">
+
+      <div class="col-5">
         <h3 class="">Enter Pokemon Name</h3>
+      </div>
 
-
-        <!-- pokemon form -->
-        <!-- <form onsubmit="app.controllers.pokemoncontroller.catchName(event)">
-          <div class="input-group form-group mb-3" style="width: 18rem">
-            <input type="text" class="form-control" placeholder="pikachu" aria-label="Recipient's username"
-              aria-describedby="basic-addon2">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="submit">Submit</button>
-            </div>
-          </div>
-        </form> -->
-
+      <div class="col-5">
         <form id="inputform" action="">
           <div class="input-group mb-3" style="width:18rem">
             <input type="text" id="pokename" name="name" value="value" class="form-control" placeholder="Pikachu">
@@ -52,28 +34,34 @@
       </div>
     </div>
 
+  </div>
 
-    <div id="pokecard">
-      <!-- <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./images/Pokeball.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <p class="card-text">Description</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Type</li>
-            <li class="list-group-item">Abilities</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">previous</a>
-            <a href="#" class="card-link">next</a>
-          </div>
-        </div> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-10">
+        <img src="/images/pokedextop.png" class="dexsize" alt="">
+      </div>
     </div>
-
-
   </div>
+
+  <div class="container">
+    <div class="row" style="height: 300px;">
+      <div class="col-10 columnbg">
+        <div class="row d-flex justify-content-between" id="pokecard">
+
+        </div>
+      </div>
+    </div>
   </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-10">
+        <img src="/images/pokedexbottom.png" class="dexsize" alt="">
+      </div>
+    </div>
+  </div>
+
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
